@@ -5,21 +5,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blog</title>
+  <title>Yeswanth's Writings</title>
 
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="assets\favicon.ico" type="image/x-icon">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
 
-  <!--
-    - custom css link
-  -->
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="styles.css">
 
-  <!--
-    - google font link
-  -->
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
@@ -27,684 +21,172 @@
 
 <body class="light-theme">
 
-  <!--
-    - #HEADER
-  -->
-
+  <!-- Header -->
   <header>
-
     <div class="container">
-
       <nav class="navbar">
-
-        <a href="#">
-          <img src="assets\logo-light.svg" alt="Devblog's logo" width="150" height="40" class="logo-light">
-          <img src="assets\logo-dark.svg" alt="Devblog's logo" width="150" height="40" class="logo-dark">
-        </a>
-
         <div class="btn-group">
-
           <button class="theme-btn theme-btn-mobile light">
             <ion-icon name="moon" class="moon"></ion-icon>
             <ion-icon name="sunny" class="sun"></ion-icon>
           </button>
-
           <button class="nav-menu-btn">
             <ion-icon name="menu-outline"></ion-icon>
           </button>
-
         </div>
 
         <div class="flex-wrapper">
-
           <ul class="desktop-nav">
-
-            <li>
-              <a href="#" class="nav-link">Home</a>
-            </li>
-
-            <li>
-              <a href="#" class="nav-link">About Me</a>
-            </li>
-
-            <li>
-              <a href="#" class="nav-link">Contact</a>
-            </li>
-
+            <li><a href="#" class="nav-link">Home</a></li>
           </ul>
-
           <button class="theme-btn theme-btn-desktop light">
             <ion-icon name="moon" class="moon"></ion-icon>
             <ion-icon name="sunny" class="sun"></ion-icon>
           </button>
-
         </div>
 
         <div class="mobile-nav">
-
           <button class="nav-close-btn">
             <ion-icon name="close-outline"></ion-icon>
           </button>
-
           <div class="wrapper">
-
             <p class="h3 nav-title">Main Menu</p>
-
             <ul>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Home</a>
-              </li>
-
-              <li class="nav-item">
-                <a href="#" class="nav-link">About Me</a>
-              </li>
-
-              <li class="nav-item">
-                <a href="#" class="nav-link">Contact</a>
-              </li>
+              <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
             </ul>
-
           </div>
-
           <div>
-
             <p class="h3 nav-title">Topics</p>
-
             <ul>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Database</a>
-              </li>
-
-              <li class="nav-item">
-                <a href="#" class="nav-link">Accessibility</a>
-              </li>
-
-              <li class="nav-item">
-                <a href="#" class="nav-link">Web Performance</a>
-              </li>
+              <li class="nav-item"><a href="#" class="nav-link">Web Analytics</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Google Analytics</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Google Tag Manager</a></li>
             </ul>
-
           </div>
-
         </div>
-
       </nav>
-
     </div>
-
   </header>
 
-
-
-
-
+  <!-- Main -->
   <main>
-
-    <!--
-      - #HERO SECTION
-    -->
-
+    <!-- Hero Section -->
     <div class="hero">
-
       <div class="container">
-
         <div class="left">
-
-          <h1 class="h1">
-            Hi, I'm <b>Yeswanth&nbsp;P G</b>.
-            <br>Data Science Student
-          </h1>
-
-
-          <div class="btn-group">
-            <a href="#" class="btn btn-primary">Contact Me</a>
-            <a href="#" class="btn btn-secondary">About Me</a>
-          </div>
-
+          <h1 class="h1">Welcome to <b>Web Analytics</b>.</h1>
         </div>
-
-        <div class="right">
-
-          <div class="pattern-bg"></div>
-          <div class="img-box">
-            <img src="assets\hero.jpg" alt="Yeswanth P G" class="hero-img">
-            <div class="shape shape-1"></div>
-            <div class="shape shape-2"></div>
-          </div>
-
-        </div>
-
+        <div class="right"></div>
       </div>
-
     </div>
 
-
-
-
-
     <div class="main">
-
       <div class="container">
-
-        <!--
-          - BLOG SECTION
-        -->
-
+        <!-- Blog Section -->
         <div class="blog">
-
           <h2 class="h2">Latest Blog Post</h2>
-
           <div class="blog-card-group">
-
+            
+            <!-- Blog Card 1 -->
             <div class="blog-card">
-
               <div class="blog-card-banner">
-                <img src="assets\blog-1.png" alt="Building microservices with Dropwizard, MongoDB & Docker"
-                  width="250" class="blog-banner-img">
+                <img src="assets/blog-1.png" alt="Building microservices with Dropwizard, MongoDB & Docker" width="250" class="blog-banner-img">
               </div>
-
               <div class="blog-content-wrapper">
-
-                <button class="blog-topic text-tiny">Database</button>
-
-                <h3>
-                  <a href="#" class="h3">
-                    Building microservices with Dropwizard, MongoDB & Docker
-                  </a>
-                </h3>
-
-                <p class="blog-text">
-                  This NoSQL database oriented to documents (by documents like JSON) combines some of the features from
-                  relational
-                  databases, easy to use and the multi-platform is the best option for scale up and have fault
-                  tolerance, load balancing,
-                  map reduce, etc.
+                <button class="blog-topic text-tiny">Web Analytics</button>
+                <h3><a href="#" class="h3">Introduction to Web Analytics</a></h3>
+                <p class="blog-text" id="blog-text-1">
+                  Web analytics is the process of measuring, collecting, analyzing, and reporting web data to understand and optimize web usage.
+                  It involves tracking and analyzing various metrics related to website performance, user behavior, and marketing effectiveness. 
+                  The primary goals of web analytics are to understand how users interact with a website, improve user experience, and drive business growth.
                 </p>
-
-                <div class="wrapper-flex">
-
-                  <div class="profile-wrapper">
-                    <img src="assets\author.jpg" alt="Yeswanth P G" width="50">
-                  </div>
-
-                  <div class="wrapper">
-                    <a href="#" class="h4">Yeswanth P G</a>
-
-                    <p class="text-sm">
-                      <time datetime="2022-01-17">Jan 17, 2022</time>
-                      <span class="separator"></span>
-                      <ion-icon name="time-outline"></ion-icon>
-                      <time datetime="PT3M">3 min</time>
-                    </p>
-                  </div>
-
-                </div>
-
+                <button id="read-more-btn-1" onclick="toggleReadMore('blog-text-1', 'read-more-btn-1')">Read More</button>
+                <p id="full-blog-text-1" style="display:none;">
+                  Web analytics is a crucial aspect of digital marketing, as it provides insights into how effective a website is at attracting and retaining visitors. 
+                  It also helps in identifying areas that need improvement, such as page load times, navigation issues, and content relevance. 
+                  By understanding user behavior, businesses can make data-driven decisions to enhance the overall user experience, increase conversions, and achieve better ROI on their marketing efforts.
+                </p>
               </div>
-
             </div>
 
-
+            <!-- Blog Card 2 -->
             <div class="blog-card">
-
               <div class="blog-card-banner">
-                <img src="assets\blog-2.png" alt="Fast web page loading on a $20 feature phone" width="250"
-                  class="blog-banner-img">
+                <img src="assets/blog-2.png" alt="Fast web page loading on a $20 feature phone" width="250" class="blog-banner-img">
               </div>
-
               <div class="blog-content-wrapper">
-
-                <button class="blog-topic text-tiny">Web Performance</button>
-
-                <h3><a href="" class="h3">Fast web page loading on a $20 feature phone</a></h3>
-
-                <p class="blog-text">
-                  Feature phones are affordable (under $20-25), low-end devices enabling 100s of millions of users in
-                  developing countries
-                  to leverage the web. Think of them as a light version of a smart phone.
+                <button class="blog-topic text-tiny">Google Analytics</button>
+                <h3><a href="#" class="h3">Introduction to Google Analytics</a></h3>
+                <p class="blog-text" id="blog-text-2">
+                  Google Analytics is a powerful web analytics service offered by Google that tracks and reports website traffic. 
+                  It is widely used by website owners, marketers, and analysts to gain insights into how users interact with their websites, 
+                  understand user behavior, and make data-driven decisions to optimize performance.
                 </p>
-
-                <div class="wrapper-flex">
-
-                  <div class="profile-wrapper">
-                    <img src="assets\author.jpg" alt="Yeswanth P G" width="50">
-                  </div>
-
-                  <div class="wrapper">
-                    <a href="#" class="h4">Yeswanth P G</a>
-
-                    <p class="text-sm">
-                      <time datetime="2021-12-10">Dec 10, 2021</time>
-                      <span class="separator"></span>
-                      <ion-icon name="time-outline"></ion-icon>
-                      <time datetime="PT2M">2 min</time>
-                    </p>
-                  </div>
-
-                </div>
-
+                <button id="read-more-btn-2" onclick="toggleReadMore('blog-text-2', 'read-more-btn-2')">Read More</button>
+                <p id="full-blog-text-2" style="display:none;">
+                  Google Analytics provides detailed information about website visitors, including their geographic location, device type, 
+                  and how they found the website (e.g., via search engines, social media, or direct visits). It also allows users to track specific 
+                  goals such as form submissions, product purchases, or newsletter signups. By analyzing this data, businesses can identify trends, 
+                  optimize their content and marketing strategies, and ultimately improve their website's effectiveness in achieving business objectives.
+                </p>
               </div>
-
             </div>
 
-
+            <!-- Blog Card 3 -->
             <div class="blog-card">
-
               <div class="blog-card-banner">
-                <img src="assets\blog-3.png" alt="Accessibility Tips for Web Developers" width="250"
-                  class="blog-banner-img">
+                <img src="assets/blog-3.png" alt="Don't Develop Just for Yourself - A Developer's Checklist to Accessibility" width="250" class="blog-banner-img">
               </div>
-
               <div class="blog-content-wrapper">
-
-                <button class="blog-topic text-tiny">Accessibility</button>
-
-                <h3><a href="" class="h3">Accessibility Tips for Web Developers</a></h3>
-
-                <p class="blog-text">
-                  It's awesome to build sites that are inclusive and accessible to everyone. There are at least six key
-                  areas of
-                  disability we can optimize for: visual, hearing, mobility, cognition, speech and neural. Many tools
-                  and resources can
-                  help here, even if you're totally new to web accessibility.
+                <button class="blog-topic text-tiny">Google Tag Manager</button>
+                <h3><a href="#" class="h3">Introduction to Google Tag Manager</a></h3>
+                <p class="blog-text" id="blog-text-3">
+                  Google Tag Manager (GTM) is a free tool that simplifies managing and deploying marketing tags on websites and apps. 
+                  It uses tags, triggers, and variables to track events like clicks and conversions without needing code changes. 
+                  GTM offers centralized management, debugging, and version control, empowering marketers with more flexibility.
                 </p>
-
-                <div class="wrapper-flex">
-
-                  <div class="profile-wrapper">
-                    <img src="assets\author.jpg" alt="Yeswanth P G" width="50">
-                  </div>
-
-                  <div class="wrapper">
-                    <a href="#" class="h4">Yeswanth P G</a>
-
-                    <p class="text-sm">
-                      <time datetime="2021-11-28">Nov 28, 2021</time>
-                      <span class="separator"></span>
-                      <ion-icon name="time-outline"></ion-icon>
-                      <time datetime="PT4M">4 min</time>
-                    </p>
-                  </div>
-
-                </div>
-
-              </div>
-
-            </div>
-
-
-            <div class="blog-card">
-
-              <div class="blog-card-banner">
-                <img src="assets\blog-4.png" alt="Dynamically Securing Databases using Hashicorp Vault"
-                  width="250" class="blog-banner-img">
-              </div>
-
-              <div class="blog-content-wrapper">
-
-                <button class="blog-topic text-tiny">Database</button>
-
-                <h3><a href="" class="h3">Dynamically Securing Databases using Hashicorp Vault</a></h3>
-
-                <p class="blog-text">
-                  Nowadays, it's hard to profoundly talk about security in the IT industry, since it has to be
-                  considered on so many
-                  different levels: from securing code chunks, securing containers, up to securing complex
-                  infrastructures and defining
-                  strong authorization and authentication policies across the enterprise.
+                <button id="read-more-btn-3" onclick="toggleReadMore('blog-text-3', 'read-more-btn-3')">Read More</button>
+                <p id="full-blog-text-3" style="display:none;">
+                  GTM helps streamline the process of implementing and managing various marketing and analytics tools. With GTM, users can 
+                  add and update tags, such as Google Analytics, AdWords conversion tracking, and more, without having to modify the website's 
+                  code directly. This reduces the risk of errors, accelerates deployment, and allows for easier adjustments and optimizations. 
+                  Additionally, GTM includes features like real-time previews and built-in tag templates, making it a powerful tool for marketers 
+                  and developers to ensure accurate tracking and measurement of website performance and user interactions.
                 </p>
-
-                <div class="wrapper-flex">
-
-                  <div class="profile-wrapper">
-                    <img src="assets\author.jpg" alt="Yeswanth P G" width="50">
-                  </div>
-
-                  <div class="wrapper">
-                    <a href="#" class="h4">Yeswanth P G</a>
-
-                    <p class="text-sm">
-                      <time datetime="2021-11-20">Nov 20, 2021</time>
-                      <span class="separator"></span>
-                      <ion-icon name="time-outline"></ion-icon>
-                      <time datetime="PT4M">4 min</time>
-                    </p>
-                  </div>
-
-                </div>
-
               </div>
-
-            </div>
-
-
-            <div class="blog-card">
-
-              <div class="blog-card-banner">
-                <img src="assets\blog-5.png"
-                  alt="Adaptive Loading - Improving Web Performance on low-end devices" width="250"
-                  class="blog-banner-img">
-              </div>
-
-              <div class="blog-content-wrapper">
-
-                <button class="blog-topic text-tiny">Web Performance</button>
-
-                <h3><a href="" class="h3">Adaptive Loading - Improving Web Performance on low-end devices</a></h3>
-
-                <p class="blog-text">
-                  Adaptive Loading: Do not just respond based on screen size, adapt based on actual device hardware.
-                  Any user can have a slow experience. In a world with widely varying device capabilities, a "one-size"
-                  fits all
-                  experience may not always work. Sites that delight users on high-end devices can be unusable on
-                  low-end ones,
-                  particularly on median mobile and desktop hardware and in emerging markets.
-                </p>
-
-                <div class="wrapper-flex">
-
-                  <div class="profile-wrapper">
-                    <img src="assets\author.jpg" alt="Yeswanth P G" width="50">
-                  </div>
-
-                  <div class="wrapper">
-                    <a href="#" class="h4">Yeswanth P G</a>
-
-                    <p class="text-sm">
-                      <time datetime="2021-11-10">Nov 10, 2021</time>
-                      <span class="separator"></span>
-                      <ion-icon name="time-outline"></ion-icon>
-                      <time datetime="PT3M">3 min</time>
-                    </p>
-                  </div>
-
-                </div>
-
-              </div>
-
-            </div>
-
-
-            <div class="blog-card">
-
-              <div class="blog-card-banner">
-                <img src="assets\blog-6.png"
-                  alt="Don't Develop Just for Yourself - A Developer's Checklist to Accessibility" width="250"
-                  class="blog-banner-img">
-              </div>
-
-              <div class="blog-content-wrapper">
-
-                <button class="blog-topic text-tiny">Accessibility</button>
-
-                <h3><a href="" class="h3">Don't Develop Just for Yourself - A Developer's Checklist to Accessibility</a>
-                </h3>
-
-                <p class="blog-text">
-                  We, as developers, tend to develop sites unconsciously for people like ourselves. If we don't actively
-                  pay attention,
-                  the sites are often accessible only for certain types of people: Sighted mouse-users, who have good
-                  fine motor skills
-                  and are good at using computers.
-                </p>
-
-                <div class="wrapper-flex">
-
-                  <div class="profile-wrapper">
-                    <img src="assets\author.jpg" alt="Yeswanth P G" width="50">
-                  </div>
-
-                  <div class="wrapper">
-                    <a href="#" class="h4">Yeswanth P G</a>
-
-                    <p class="text-sm">
-                      <time datetime="2021-10-25">Oct 25, 2021</time>
-                      <span class="separator"></span>
-                      <ion-icon name="time-outline"></ion-icon>
-                      <time datetime="PT7M">7 min</time>
-                    </p>
-                  </div>
-
-                </div>
-
-              </div>
-
-            </div>
-
-
-            <div class="blog-card">
-
-              <div class="blog-card-banner">
-                <img src="assets\blog-7.png"
-                  alt="Building a Restful CRUD API with Node JS, Express, and MongoDB" width="250"
-                  class="blog-banner-img">
-              </div>
-
-              <div class="blog-content-wrapper">
-
-                <button class="blog-topic text-tiny">Database</button>
-
-                <h3><a href="" class="h3">Building a Restful CRUD API with Node JS, Express, and MongoDB</a></h3>
-
-                <p class="blog-text">
-                  Application Programming Interface is the abbreviation for API. An API is a software interface that
-                  enables two apps to
-                  communicate with one another. In other words, an API is a messenger that sends your request to the
-                  provider and then
-                  returns the response to you.
-                </p>
-
-                <div class="wrapper-flex">
-
-                  <div class="profile-wrapper">
-                    <img src="assets\author.jpg" alt="Yeswanth P G" width="50">
-                  </div>
-
-                  <div class="wrapper">
-                    <a href="#" class="h4">Yeswanth P G</a>
-
-                    <p class="text-sm">
-                      <time datetime="2021-10-15">Oct 15, 2021</time>
-                      <span class="separator"></span>
-                      <ion-icon name="time-outline"></ion-icon>
-                      <time datetime="PT5M">5 min</time>
-                    </p>
-                  </div>
-
-                </div>
-
-              </div>
-
-            </div>
-
-
-            <div class="blog-card">
-
-              <div class="blog-card-banner">
-                <img src="assets\blog-8.png" alt="Monitoring Performance with the PageSpeed Insights API"
-                  width="250" class="blog-banner-img">
-              </div>
-
-              <div class="blog-content-wrapper">
-
-                <button class="blog-topic text-tiny">Web Performance</button>
-
-                <h3><a href="" class="h3">Monitoring Performance with the PageSpeed Insights API</a></h3>
-
-                <p class="blog-text">
-                  The PageSpeed Insights API provides free access to performance monitoring for web pages and returns
-                  data with
-                  suggestions for how to improve. The V5 API includes lab data from Lighthouse and real-world data from
-                  the Chrome User
-                  Experience Report (CrUX).
-                </p>
-
-                <div class="wrapper-flex">
-
-                  <div class="profile-wrapper">
-                    <img src="assets\author.jpg" alt="Yeswanth P G" width="50">
-                  </div>
-
-                  <div class="wrapper">
-                    <a href="#" class="h4">Yeswanth P G</a>
-
-                    <p class="text-sm">
-                      <time datetime="2021-10-03">Oct 3, 2021</time>
-                      <span class="separator"></span>
-                      <ion-icon name="time-outline"></ion-icon>
-                      <time datetime="PT5M">5 min</time>
-                    </p>
-                  </div>
-
-                </div>
-
-              </div>
-
-            </div>
-
-
-            <div class="blog-card">
-
-              <div class="blog-card-banner">
-                <img src="assets\blog-9.png" alt="The best web accessibility tools for developers in 2021"
-                  width="250" class="blog-banner-img">
-              </div>
-
-              <div class="blog-content-wrapper">
-
-                <button class="blog-topic text-tiny">Accessibility</button>
-
-                <h3><a href="" class="h3">The best web accessibility tools for developers in 2021</a>
-                </h3>
-
-                <p class="blog-text">
-                  The quality of the tools you use defines the speed with which you can diagnose and resolve problems.
-                  Each year the landscape changes dramatically in web technologies, and of late the tooling for
-                  accessibility is no
-                  exception.
-                </p>
-
-                <div class="wrapper-flex">
-
-                  <div class="profile-wrapper">
-                    <img src="assets\author.jpg" alt="Yeswanth P G" width="50">
-                  </div>
-
-                  <div class="wrapper">
-                    <a href="#" class="h4">Yeswanth P G</a>
-
-                    <p class="text-sm">
-                      <time datetime="2021-09-13">Sep 13, 2021</time>
-                      <span class="separator"></span>
-                      <ion-icon name="time-outline"></ion-icon>
-                      <time datetime="PT7M">7 min</time>
-                    </p>
-                  </div>
-
-                </div>
-
-              </div>
-
-            </div>
-
-
-            <div class="blog-card">
-
-              <div class="blog-card-banner">
-                <img src="assets\blog-10.png"
-                  alt="How to connect a React frontend with a NodeJS/Express backend" width="250"
-                  class="blog-banner-img">
-              </div>
-
-              <div class="blog-content-wrapper">
-
-                <button class="blog-topic text-tiny">Database</button>
-
-                <h3><a href="" class="h3">How to connect a React frontend with a NodeJS/Express backend</a></h3>
-
-                <p class="blog-text">
-                  The MERN (MongoDB, Express, React, NodeJS) stack is very popular for making full stack applications,
-                  utilizing
-                  Javascript for both the backend and frontend as well as a document-oriented or non relational database
-                  (MongoDB),
-                  meaning that it's structured like JSON rather than a large excel sheet like SQL databases are.
-                </p>
-
-                <div class="wrapper-flex">
-
-                  <div class="profile-wrapper">
-                    <img src="assets\author.jpg" alt="Yeswanth P G" width="50">
-                  </div>
-
-                  <div class="wrapper">
-                    <a href="#" class="h4">Yeswanth P G</a>
-
-                    <p class="text-sm">
-                      <time datetime="2021-09-21">Sep 21, 2021</time>
-                      <span class="separator"></span>
-                      <ion-icon name="time-outline"></ion-icon>
-                      <time datetime="PT4M">4 min</time>
-                    </p>
-                  </div>
-
-                </div>
-
-              </div>
-
             </div>
 
           </div>
-
           <button class="btn load-more">Load More</button>
-
         </div>
 
-
-
-
-
-        <!--
-          - ASIDE
-        -->
-
+        <!-- Aside -->
         <div class="aside">
-
           <div class="topics">
-
             <h2 class="h2">Topics</h2>
-
             <a href="#" class="topic-btn">
               <div class="icon-box">
                 <ion-icon name="server-outline"></ion-icon>
               </div>
-
-              <p>Database</p>
+              <p>Web Analytics</p>
             </a>
-
             <a href="#" class="topic-btn">
               <div class="icon-box">
                 <ion-icon name="accessibility-outline"></ion-icon>
               </div>
-
-              <p>Accessibility</p>
+              <p>Google Analytics</p>
             </a>
-
             <a href="#" class="topic-btn">
               <div class="icon-box">
                 <ion-icon name="rocket-outline"></ion-icon>
               </div>
-
-              <p>Web Performance</p>
+              <p>Google Tag Manager</p>
             </a>
-
           </div>
 
           <div class="tags">
-
             <h2 class="h2">Tags</h2>
-
             <div class="wrapper">
-
               <button class="hashtag">#mongodb</button>
               <button class="hashtag">#nodejs</button>
               <button class="hashtag">#a11y</button>
@@ -713,147 +195,84 @@
               <button class="hashtag">#webperf</button>
               <button class="hashtag">#optimize</button>
               <button class="hashtag">#performance</button>
-
             </div>
-
           </div>
 
           <div class="contact">
-
             <h2 class="h2">Let's Talk</h2>
-
             <div class="wrapper">
-
-              <p>
-                Do you want to learn more about how I can help your company overcome problems? Let us have a
-                conversation.
-              </p>
-
+              <p>Do you want to learn more about how I can help your company overcome problems? Let us have a conversation.</p>
               <ul class="social-link">
-
-                <li>
-                  <a href="#" class="icon-box discord">
-                    <ion-icon name="logo-discord"></ion-icon>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#" class="icon-box twitter">
-                    <ion-icon name="logo-twitter"></ion-icon>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#" class="icon-box facebook">
-                    <ion-icon name="logo-facebook"></ion-icon>
-                  </a>
-                </li>
-
+                <li><a href="#" class="icon-box discord"><ion-icon name="logo-discord"></ion-icon></a></li>
+                <li><a href="#" class="icon-box twitter"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                <li><a href="#" class="icon-box facebook"><ion-icon name="logo-facebook"></ion-icon></a></li>
               </ul>
-
             </div>
-
           </div>
 
           <div class="newsletter">
-
             <h2 class="h2">Newsletter</h2>
-
             <div class="wrapper">
-
-              <p>
-                Subscribe to our newsletter to be among the first to keep up with the latest updates.
-              </p>
-
+              <p>Subscribe to our newsletter to be among the first to keep up with the latest updates.</p>
               <form action="#">
                 <input type="email" name="email" placeholder="Email Address" required>
-
                 <button type="submit" class="btn btn-primary">Subscribe</button>
               </form>
-
             </div>
-
           </div>
-
         </div>
 
       </div>
-
     </div>
-
   </main>
-   <!--
-    - #FOOTER
-  -->
 
+  <!-- Footer -->
   <footer>
-
     <div class="container">
-
       <div class="wrapper">
-
-        <a href="#" class="footer-logo">
-          <img src="assets\logo-light.svg" alt="DevBlog's Logo" width="150" height="40" class="logo-light">
-          <img src="assets\logo-dark.svg" alt="DevBlog's Logo" width="150" height="40" class="logo-dark">
-        </a>
-
-        <p class="footer-text">
-          Learn about Web accessibility, Web performance, and Database management.
-        </p>
-
       </div>
 
       <div class="wrapper">
-
         <p class="footer-title">Quick Links</p>
-
         <ul>
-
-          <li>
-            <a href="#" class="footer-link">Advertise with us</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">About Us</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Contact Us</a>
-          </li>
-
+          <li><a href="#" class="footer-link">Advertise with us</a></li>
+          <li><a href="#" class="footer-link">About Us</a></li>
+          <li><a href="#" class="footer-link">Contact Us</a></li>
         </ul>
-
       </div>
 
       <div class="wrapper">
-
         <p class="footer-title">Legal Stuff</p>
-
         <ul>
-
-          <li>
-            <a href="#" class="footer-link">Privacy Notice</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Cookie Policy</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Terms Of Use</a>
-          </li>
-
+          <li><a href="#" class="footer-link">Privacy Notice</a></li>
+          <li><a href="#" class="footer-link">Cookie Policy</a></li>
+          <li><a href="#" class="footer-link">Terms Of Use</a></li>
         </ul>
-
       </div>
-
     </div>
-
   </footer>
 
+  <!-- Scripts -->
   <script src="script.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
+  <!-- Inline JS for Read More/Read Less functionality -->
+  <script>
+    function toggleReadMore(blogTextId, btnId) {
+      var fullText = document.getElementById('full-' + blogTextId);
+      var btn = document.getElementById(btnId);
+
+      if (fullText.style.display === 'none') {
+        fullText.style.display = 'block';
+        btn.textContent = 'Read Less';
+      } else {
+        fullText.style.display = 'none';
+        btn.textContent = 'Read More';
+      }
+    }
+  </script>
+
 </body>
 
 </html>
